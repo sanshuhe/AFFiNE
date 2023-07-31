@@ -275,6 +275,9 @@ export const createOrGetGlobalThis = (
       Blob: globalThis.Blob,
       ClipboardItem: globalThis.ClipboardItem,
 
+      // widgets plugin uses these
+      customElements: globalThis.customElements,
+
       // fixme: use our own db api
       indexedDB: globalThis.indexedDB,
       IDBRequest: globalThis.IDBRequest,
