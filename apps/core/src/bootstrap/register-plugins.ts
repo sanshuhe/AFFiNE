@@ -11,6 +11,7 @@ const builtinPluginUrl = new Set([
   '/plugins/copilot',
   '/plugins/hello-world',
   '/plugins/image-preview',
+  '/plugins/linked-page',
 ]);
 
 const logger = new DebugLogger('register-plugins');
